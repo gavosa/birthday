@@ -11,6 +11,6 @@ if month == 6:
     else:
         print("Webster, it's your birthday! You're turning a year older today!")
 elif month < 6:
-    print("It's not your birth month!")
+    print("It's yet your birth month!")
 else:
     print("It's past your birth month!")
