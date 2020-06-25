@@ -6,8 +6,10 @@ day = datetime.date.today().day
 if month == 6:
     if day < 24:
         print("Ooops, you are not 23 yet!")
-    elif day > 24:
+    elif day > 25:
         print("You are past your birthday!")
+    elif day == 25:
+        print("Happy belated birthday, Webster!")
     else:
         print("Webster, it's your birthday! You're turning a year older today!")
 elif month < 6:
