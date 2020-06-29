@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<html>
+    <head>
+        <title>Webster</title>
+        <h1>Is it my birthday?</h1>
+        <style>
+        	h1{
+        		color: blue;
+        	}
+            body{
+            	text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+    	{% if month < 6 %}
+    	<h3>It's not your birthday month, Webster!</h3>
+    	{% elif month == 6 and day == 24 %}
+    	<h3>Happy birthday, Webster!</h3>
+    	{% elif month == 6 and day == 24 %}
+    	<h3>Happy belated birthday, Mercy</h3>
+    	{% elif month == 6 and day > 25%}
+    	<h3>You've already celebrated your birthday this month!
+    	{% else %}
+    	<h3>You've already celebrated your birthday this year!</h3>
+    	{% endif %}
+    </body>
+</html>
