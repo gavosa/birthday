@@ -10,20 +10,21 @@
         	}
             body{
             	text-align: center;
+              padding-top: 17%;
             }
         </style>
     </head>
     <body>
     	{% if month < 6 %}
-    	<h3>It's not your birthday month, Webster!</h3>
+    	<h3 style="color:#3CB371;">It's not your birthday month yet, Webster!</h3>
     	{% elif month == 6 and day == 24 %}
-    	<h3>Happy birthday, Webster!</h3>
+    	<h3 style="color:#00FF00;">Yessssss! Happy birthday, Webster!</h3>
     	{% elif month == 6 and day == 24 %}
-    	<h3>Happy belated birthday, Mercy</h3>
+    	<h3 style="color:#00FF00;">Nope, happy belated birthday, Webster</h3>
     	{% elif month == 6 and day > 25%}
-    	<h3>You've already celebrated your birthday this month!</h3>
+    	<h3 style="color:#FF4500;">NO! You've already celebrated your birthday this month!</h3>
     	{% else %}
-    	<h3>You've already celebrated your birthday this year!</h3>
+    	<h3 style="color:#FF4500;">NO! You've already celebrated your birthday this year, your next birthday is due 24th of June next year!</h3>
     	{% endif %}
     </body>
 </html>
